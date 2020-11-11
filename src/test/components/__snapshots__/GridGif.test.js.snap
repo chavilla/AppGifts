@@ -14,6 +14,12 @@ exports[`GridGrif Component show items with useFetchGifs 1`] = `
       title="Hola Jesus"
       url="https://www.chaviweb.com"
     />
+    <GifGridItem
+      id="ABCD"
+      key="ABCD"
+      title="Hola Jesus"
+      url="https://www.chaviweb.com"
+    />
   </div>
 </Fragment>
 `;

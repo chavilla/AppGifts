@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import AddCategory from "./components/AddCategory";
 import { GridGif } from "./components/GridGif";
 
-const GifExpertApp = () => {
-  const [category, setCategory] = useState(["samurai x"]);
+const GifExpertApp = ({categories=[]}) => {
+
+  const [category, setCategory] = useState(categories);
 
   return (
     <>
