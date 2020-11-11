@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GridGrif Component show items with useFetchGifs 1`] = `
+<Fragment>
+  <h2>
+    Soy una categoría
+  </h2>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="Hola Jesus"
+      url="https://www.chaviweb.com"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`GridGrif Component snapshot of the component 1`] = `
+<Fragment>
+  <h2>
+    Soy una categoría
+  </h2>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="Hola Jesus"
+      url="https://www.chaviweb.com"
+    />
+  </div>
+</Fragment>
+`;
