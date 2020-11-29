@@ -17,7 +17,7 @@ describe('description', () => {
         const wrapper=shallow(<GifExpertApp categories={categories}/>)
 
         expect(wrapper).toMatchSnapshot();
-        expect(wrapper.find('GridGif').length).toBe(5);
+        expect(wrapper.find('GridGif').length).toBe(2);
 
     });
 

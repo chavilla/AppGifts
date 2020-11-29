@@ -11,7 +11,7 @@ describe('addCategoy component', () => {
 
     beforeEach(()=>{
         //cuando una funcion es llamada y se quiere limpiar por decirlo asi
-        jest.clearAllMocks();
+        //jest.clearAllMocks();
         wrapper=shallow(<AddCategory setCategory={setCategory}/>);
     })
     
@@ -19,10 +19,12 @@ describe('addCategoy component', () => {
         expect(wrapper).toMatchSnapshot();
     });
 
-    test('should change the inputText',()=>{
+    test('should to change the inputText',()=>{
         
         const input=wrapper.find('input');
         const value= 'Hola Mundo';
+
+        //change event simulator
         input.simulate('change',{target:{ value:value}});
 
         expect(wrapper.find('p').text().trim()).toBe(value)
